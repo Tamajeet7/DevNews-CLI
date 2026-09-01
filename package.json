@@ -1,0 +1,32 @@
+{
+  "name": "devnews-cli",
+  "version": "2.0.0",
+  "description": "⚡ Fast developer tech news, GitHub trending repos, DEV.to articles, and hardware monitor directly in your terminal",
+  "main": "index.js",
+  "bin": {
+    "devnews": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "news": "node index.js news",
+    "sys": "node index.js sys",
+    "devto": "node index.js devto",
+    "github": "node index.js github",
+    "digest": "node index.js digest"
+  },
+  "keywords": [
+    "cli",
+    "developer",
+    "tech-news",
+    "hackernews",
+    "github-trending",
+    "devto",
+    "system-monitor"
+  ],
+  "author": "Tamajeet Biswas",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.19.0",
+    "commander": "^15.0.0"
+  }
+}
